@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App/App'
+import ChannelDashboardPage from './ChannelDashboardPage'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
+    <ChannelDashboardPage/>
   </StrictMode>
 )

@@ -1,0 +1,28 @@
+  /* Input fields */
+  .form-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #3b82f6; /* Blue border */
+    border-radius: 6px; /* Rounded corners */
+    background-color: #3b82f6; /* Bright blue background */
+    color: #ffffff; /* White text */
+    font-size: 0.9rem;
+    text-align: center;
+    outline: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Input hover and focus effects */
+  .form-input:hover,
+  .form-input:focus {
+    background-color: #2563eb; /* Slightly darker blue */
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.6);
+  }
+
+  @media (max-width: 414px) {
+    .form-input {
+      padding: 0.35rem;
+    }
+  }

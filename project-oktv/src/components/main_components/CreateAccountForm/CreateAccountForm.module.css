@@ -1,0 +1,43 @@
+/* General container styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full viewport height */
+    background-color: #ffffff; /* Light gray background */
+    width: 100%;
+    margin: 5% 0 5% 0;
+  }
+  
+  /* Form styling */
+  .register-form {
+    background-color: #4891eb; /* Light blue background */
+    padding: 2rem;
+    border-radius: 12px; /* Rounded corners */
+    width: 350px; /* Fixed width */
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  
+  /* Form title */
+  .form-title {
+    font-size: 2.5rem; /* Slightly larger font */
+    color: #ffffff; /* Darker blue */
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+
+@media (max-width: 414px) {
+    .register-form {
+      width: 60%; /* Full width on smaller screens */
+    }
+
+    .form-title {
+      font-size: 2rem; /* Slightly larger font */
+    }
+  }

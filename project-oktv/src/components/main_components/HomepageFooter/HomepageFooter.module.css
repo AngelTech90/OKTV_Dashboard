@@ -1,0 +1,31 @@
+/* Footer Container */
+.footer {
+    background-color: #333333; /* Dark background color */
+    color: #ffffff; /* White text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    height: 130px;
+    font-size: 1.6rem; /* Small font size */
+    font-weight: bold;
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Limit content width */
+  }
+  
+  /* Footer Left Section */
+  .footer-left {
+    text-align: left;
+  }
+  
+  /* Footer Right Section */
+  .footer-right {
+    text-align: right;
+  }
+  

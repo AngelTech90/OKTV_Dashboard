@@ -1,0 +1,36 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 200px;
+    font-size: 14px;
+  }
+  
+  .addOperatorBtn{
+    width: 67px;
+  }
+
+  @media (max-width: 414px) {
+    .dashboard {
+      flex-direction: column;
+    }
+  }

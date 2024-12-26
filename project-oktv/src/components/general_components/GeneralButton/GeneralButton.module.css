@@ -1,0 +1,19 @@
+/* Submit button */
+.button {
+    background-color: #2563eb; /* Darker blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 65%;
+  }
+  
+  .button:hover {
+    background-color: #1d4ed8; /* Even darker blue */
+    box-shadow: 0 4px 6px rgba(29, 78, 216, 0.4);
+  }
+  

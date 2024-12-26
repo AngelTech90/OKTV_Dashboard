@@ -1,0 +1,70 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3b82f6; /* Blue background */
+    height: 120px; /* Height: 16 Tailwind equivalent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+  }
+  
+  .logo-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Space between links */
+    margin-right: 3%;
+  }
+  
+  .nav-item {
+    color: #ffffff; /* White text */
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    color: #e2e8f0; /* Lighter hover color */
+  }
+  
+  .nav-item.highlight {
+    color: #facc15; /* Yellow for highlight */
+  }
+  
+  .nav-item.highlight:hover {
+    color: #fbbf24; /* Lighter yellow on hover */
+  }
+  
+  /* Sign-in Button */
+  .signin-btn {
+    color: #3b82f6; /* Blue text */
+    background-color: #ffffff; /* White background */
+    padding: 0.5rem 1rem; /* Padding: Tailwind equivalent */
+    border: 1px solid #ffffff;
+    border-radius: 9999px; /* Fully rounded button */
+    font-size: 0.875rem; /* Text size: Small */
+    font-weight: 500; /* Medium font weight */
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .signin-btn:hover {
+    background-color: #f3f4f6; /* Light gray hover */
+    color: #2563eb; /* Darker blue text */
+    border-color: #f3f4f6;
+  }

@@ -1,0 +1,63 @@
+
+  .form-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .form-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-subtitle {
+    font-size: 1.2rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+  }
+  
+  .form-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .form-footer {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .form-footer .reset-link {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .form-footer .reset-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 414px) {
+    .form-card{
+      width: 65%;
+    }
+  }

@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #71a8f0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Channel Logo */
+  .logo {
+    flex: 0 0 50px;
+  }
+  
+  .logoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  
+  /* Channel Info */
+  .info {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .email,
+  .phone,
+  .enrollNumber,
+  .dateAdded {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Action Buttons */
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit,
+  .delete {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #2563eb;
+    transition: color 0.2s;
+  }
+  
+  .edit:hover {
+    color: #1e40af;
+  }
+  
+  .delete:hover {
+    color: #d9534f;
+  }
+  
