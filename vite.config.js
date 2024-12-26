@@ -12,7 +12,7 @@ export default defineConfig({
 
   root,
   plugins: [react()],
-  base: '../project-oktv',
+  base: '../OKTV_Dashboard',
   // css:{
   //   preprocessorOptions: {
   //     css: {
