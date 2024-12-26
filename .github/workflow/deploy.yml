@@ -1,5 +1,4 @@
-yaml
-Copy code
+
 name: Deploy React with Vite to GitHub Pages
 
 on:
