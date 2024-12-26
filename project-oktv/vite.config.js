@@ -9,8 +9,10 @@ const outDir = resolve(__dirname, './dist');
 
 //* We will use the defineConfig function to export our configuration object
 export default defineConfig({
+
   root,
   plugins: [react()],
+  base: '../project-oktv',
   // css:{
   //   preprocessorOptions: {
   //     css: {
